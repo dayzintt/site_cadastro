@@ -1,0 +1,52 @@
+.sair{
+    text-align: center;
+    padding: 10px;
+    
+    border-radius: 10px;
+    position: relative;
+    right: 54%;
+    color: white;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+.sair a:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+    padding: 8px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(95deg, rgb(76, 200, 238), rgba(255, 145, 0, 0.856));
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(5, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+}
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    
+}
+.navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+.content {
+    margin-top: 0px;
+}
+/* Estilos para o modo escuro */
+.dark-mode body {
+    background-color: #333;
+    color: #fff;
+}
